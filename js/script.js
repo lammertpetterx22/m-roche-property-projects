@@ -29,6 +29,11 @@ const SERVICE_LABELS = {
   repairs: 'General Repairs',
   maintenance: 'Property Maintenance',
   improvements: 'Home Improvements',
+  stairs: 'Stair Renovation',
+  carpentry: 'Carpentry & Joinery',
+  painting: 'Painting & Decorating',
+  flooring: 'Flooring Installation',
+  emergency: 'Emergency Call-Out',
   other: 'Other / Not Sure'
 };
 

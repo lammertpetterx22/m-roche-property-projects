@@ -33,6 +33,7 @@ const SERVICE_LABELS = {
   carpentry: 'Carpentry & Joinery',
   painting: 'Painting & Decorating',
   flooring: 'Flooring Installation',
+  tiling: 'Tiling',
   emergency: 'Emergency Call-Out',
   other: 'Other / Not Sure'
 };
@@ -65,7 +66,7 @@ form.addEventListener('submit', (e) => {
 
 // Scroll-reveal animation
 const revealEls = document.querySelectorAll(
-  '.service-card, .about__content, .about__image, .showcase, .process__step'
+  '.service-card, .about__content, .about__image, .showcase, .process__step, .faq__item'
 );
 
 const observer = new IntersectionObserver((entries) => {
